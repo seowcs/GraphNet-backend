@@ -13,11 +13,9 @@ class TextInputToDocredPipeline:
     def __init__(self):
         #cuda or not
         self.ner = Predictor.from_path(
-            "https://storage.googleapis.com/allennlp-public-models/fine-grained-ner.2020-06-24.tar.gz"
-        , cuda_device=0)
+            "https://storage.googleapis.com/allennlp-public-models/fine-grained-ner.2020-06-24.tar.gz")
         self.coref = Predictor.from_path(
-            "https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz"
-        , cuda_device=0)
+            "https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")
         self.ner._tokenizer.spacy = (
             self.coref._spacy
         )  # Set spacy model of ner to coref (ensure same model is used)
