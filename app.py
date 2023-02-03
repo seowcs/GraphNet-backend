@@ -87,12 +87,12 @@ def relation_extraction():
     
     PRED_THRESHOLD = 0.3
     #cuda or cpu
-    preprocessor = LsrPreprocessor(rel2id_path=rel2id_path, word2id_path=word2id_path, ner2id_path=ner2id_path)
+    preprocessor = LsrPreprocessor(rel2id_path=rel2id_path, word2id_path=word2id_path, ner2id_path=ner2id_path, device=device)
     postprocessor = LsrPostprocessor.from_file_paths(rel2id_path=rel2id_path, rel_info_path=rel_info_path,
                                                     pred_threshold=PRED_THRESHOLD)
     config = LsrConfig.from_pretrained('https://storage.googleapis.com/sgnlp/models/lsr/v2/config.json')
     #cuda or cpu
-    model = LsrModel.from_pretrained('https://storage.googleapis.com/sgnlp/models/lsr/v2/pytorch_model.bin', config=config).to("cuda")
+    model = LsrModel.from_pretrained('https://storage.googleapis.com/sgnlp/models/lsr/v2/pytorch_model.bin', config=config)
     model.eval()
 
     tensor_doc = preprocessor([docred_doc])
