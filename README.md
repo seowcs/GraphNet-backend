@@ -4,9 +4,9 @@
 
 Make sure python 3.9 (preferably 3.9.12) is installed on your local machine.
 
-To activate virtual environment, run:
+To activate virtual environment in windows, run:
 
-### `env/Scripts/activate` (windows)
+### `env/Scripts/activate`
 
 To install dependencies in virtual environment, run:
 
