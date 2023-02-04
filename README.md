@@ -12,16 +12,14 @@ To install dependencies in virtual environment, run:
 
 ### `pip install -r requirements.txt`
 
+To start flask app on localhost:5000, run:
+
+### `python app.py`
+
 If flask app does not start properly, create a new virtual environment with:
 
 ### `python -m venv env`
-and then install dependencies.
-
-
-
-To run flask app on localhost:5000, run:
-
-### `python app.py`
+and then install dependencies and start flask app.
 
 ## Note:
 
@@ -32,5 +30,5 @@ JWT token will expire between 5 and 15 minutes so re-authentication is required 
 After installing the networkx library, errors may show up in:
 `env\Lib\site-packages\networkx\readwrite\gexf.py` and 
 `env\Lib\site-packages\networkx\readwrite\graphml.py`
-saying that numpy does not have attribute int in np.int.
+saying that numpy does not have attribute int in `np.int`.
 Follow accordingly to the instructions in the errors in order to rectify it.
