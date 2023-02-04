@@ -31,4 +31,4 @@ After installing the networkx library, errors may show up in:
 `env\Lib\site-packages\networkx\readwrite\gexf.py` and 
 `env\Lib\site-packages\networkx\readwrite\graphml.py`
 saying that numpy does not have attribute int in `np.int`.
-Follow accordingly to the instructions in the errors in order to rectify it.
+Follow accordingly to the instructions in the errors to fix them.
