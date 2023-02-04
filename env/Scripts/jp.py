@@ -1,4 +1,4 @@
-#!C:\Users\Admin\Desktop\aiapp\backend\env\Scripts\python.exe
+#!C:\Users\Xu Hong\OneDrive\Desktop\GraphNet-backend\env\Scripts\python.exe
 
 import sys
 import json
