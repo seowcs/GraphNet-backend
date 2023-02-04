@@ -1,7 +1,6 @@
-<img width="960" alt="Screenshot_20230205_121628" src="https://user-images.githubusercontent.com/110110916/216781715-7bf5ab95-0c67-4fef-b954-a703afb69cd7.png">
-
-
 # Backend code for GraphNet
+
+<img width="960" alt="Screenshot_20230205_121628" src="https://user-images.githubusercontent.com/110110916/216781715-7bf5ab95-0c67-4fef-b954-a703afb69cd7.png">
 
 Make sure python 3.9 (preferably 3.9.12) is installed on your local machine.
 
