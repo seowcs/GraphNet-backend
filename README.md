@@ -23,7 +23,7 @@ and then install dependencies and start flask app.
 
 ## Note:
 
-It is normal for flask app to take from 1-2 minutes to boot up due to loading the ML models.
+It is normal for the flask app to take from 1-2 minutes to boot up due to loading the ML models.
 
 JWT token will expire between 5 and 15 minutes so re-authentication is required for prolong usage(logging out then logging back in on the client side).
 
