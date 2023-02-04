@@ -17,6 +17,10 @@ If flask app does not start properly, create a new virtual environment with:
 ### `python -m venv env`
 and then install dependencies.
 
+To run flask app on localhost:5000, run:
+
+### `python app.py`
+
 ## Note:
 
 It is normal for flask app to take from 1-2 minutes to boot up due to loading the ML models.
